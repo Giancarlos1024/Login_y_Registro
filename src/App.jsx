@@ -1,5 +1,5 @@
 import './App.css'
-import { Navigation } from './navigationRoutes/navigation'
+import { Navigation } from './navigationRoutes/Navigation'
 
 function App() {
   
