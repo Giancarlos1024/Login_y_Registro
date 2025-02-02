@@ -1,0 +1,39 @@
+
+.registrateContenedor{
+    height: 550px;
+}
+
+.register-bienvenida{
+    background: linear-gradient(to right, #ff4b2b, #ff416c) no-repeat 0 0 / cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    line-height: 2.5;
+    border-radius: 10px 0px 0px 10px;
+    transform: translateX(100%);
+    transition: transform 0.6s ease-in-out;
+    transform: translateX(-0%);
+
+}
+.register-crear{
+    transform: translateX(0%);
+}
+
+.contenerMovil{
+    display: none;
+}
+.textoRegisterBienvenida > p{
+    /* background-color: yellow; */
+    margin: 0px 50px;
+    text-align: center;
+    line-height: 1.7;
+}
+
+
+@media screen and (max-width:480px) {
+    .contenerMovil{
+        display: flex;
+    }
+}
